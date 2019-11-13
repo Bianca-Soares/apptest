@@ -9,10 +9,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textViewDiv"
         android:layout_width="45dp"
         android:layout_height="33dp"
-        android:text="TextView"
+        android:text="/"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.256"
@@ -21,12 +21,12 @@
         app:layout_constraintVertical_bias="0.613" />
 
     <EditText
-        android:id="@+id/editText16"
+        android:id="@+id/valor2Mult"
         android:layout_width="64dp"
         android:layout_height="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.446"
@@ -35,12 +35,12 @@
         app:layout_constraintVertical_bias="0.606" />
 
     <EditText
-        android:id="@+id/editText17"
+        android:id="@+id/valor1Div"
         android:layout_width="61dp"
         android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -49,12 +49,12 @@
         app:layout_constraintVertical_bias="0.607" />
 
     <EditText
-        android:id="@+id/editText18"
+        android:id="@+id/totalDiv"
         android:layout_width="73dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
@@ -63,10 +63,10 @@
         app:layout_constraintVertical_bias="0.605" />
 
     <Button
-        android:id="@+id/btndiv"
+        android:id="@+id/btnDiv"
         android:layout_width="45dp"
         android:layout_height="46dp"
-        android:text="Button"
+        android:text="="
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.669"
@@ -75,12 +75,12 @@
         app:layout_constraintVertical_bias="0.605" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/valor1Mult"
         android:layout_width="61dp"
         android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -89,12 +89,12 @@
         app:layout_constraintVertical_bias="0.478" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/valor2Mult"
         android:layout_width="64dp"
         android:layout_height="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.446"
@@ -103,10 +103,10 @@
         app:layout_constraintVertical_bias="0.477" />
 
     <Button
-        android:id="@+id/btnmult"
+        android:id="@+id/btnMult"
         android:layout_width="45dp"
         android:layout_height="46dp"
-        android:text="Button"
+        android:text="="
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.669"
@@ -115,10 +115,10 @@
         app:layout_constraintVertical_bias="0.475" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewMult"
         android:layout_width="45dp"
         android:layout_height="33dp"
-        android:text="TextView"
+        android:text="x"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.256"
@@ -127,12 +127,12 @@
         app:layout_constraintVertical_bias="0.485" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/totalMult"
         android:layout_width="73dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
@@ -156,12 +156,12 @@
         app:layout_constraintVertical_bias="0.068" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/valor1Soma"
         android:layout_width="61dp"
         android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -170,12 +170,12 @@
         app:layout_constraintVertical_bias="0.196" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/totalSoma"
         android:layout_width="73dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
@@ -184,10 +184,10 @@
         app:layout_constraintVertical_bias="0.197" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewSoma"
         android:layout_width="45dp"
         android:layout_height="33dp"
-        android:text="TextView"
+        android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.256"
@@ -196,12 +196,12 @@
         app:layout_constraintVertical_bias="0.207" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/valor2soma"
         android:layout_width="64dp"
         android:layout_height="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.446"
@@ -210,12 +210,12 @@
         app:layout_constraintVertical_bias="0.195" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/valor1Sub"
         android:layout_width="61dp"
         android:layout_height="43dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -224,12 +224,12 @@
         app:layout_constraintVertical_bias="0.357" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/totalSub"
         android:layout_width="73dp"
         android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
@@ -238,10 +238,10 @@
         app:layout_constraintVertical_bias="0.354" />
 
     <Button
-        android:id="@+id/btnsub"
+        android:id="@+id/btnSub"
         android:layout_width="45dp"
         android:layout_height="46dp"
-        android:text="Button"
+        android:text="="
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.669"
@@ -250,10 +250,10 @@
         app:layout_constraintVertical_bias="0.354" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewSub"
         android:layout_width="45dp"
         android:layout_height="33dp"
-        android:text="TextView"
+        android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.256"
@@ -262,12 +262,12 @@
         app:layout_constraintVertical_bias="0.366" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/valor2Sub"
         android:layout_width="64dp"
         android:layout_height="44dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.446"
@@ -276,10 +276,10 @@
         app:layout_constraintVertical_bias="0.356" />
 
     <Button
-        android:id="@+id/btnsoma"
+        android:id="@+id/btnSoma"
         android:layout_width="45dp"
         android:layout_height="46dp"
-        android:text="Button"
+        android:text="="
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.669"
