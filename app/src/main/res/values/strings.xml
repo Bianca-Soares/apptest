@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="simboDiv">/</string>
+    <string name="simboIgual">=</string>
+    <string name="simboMult">*</string>
+    <string name="simboSoma">+</string>
+    <string name="simboSub">-</string>
 </resources>
